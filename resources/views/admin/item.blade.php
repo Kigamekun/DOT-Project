@@ -3,7 +3,7 @@
 @section('content')
     <div class="card shadow border-0 mb-7">
         <div class="card-header">
-            <h5 class="mb-0">Orders</h5>
+            <h5 class="mb-0">Items</h5>
         </div>
         <div class="table-responsive">
             <table class="table table-hover table-nowrap">
@@ -69,7 +69,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create Orders</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create Item</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form action="{{ isset($_GET['id']) ? route('items.store') . '?id=' . $_GET['id'] : route('items.store') }}"

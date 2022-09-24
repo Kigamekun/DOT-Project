@@ -1,64 +1,26 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Laravel App
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Project ini adalah project yang dibuat simple dengan 2 Table yang saling berhubungan one to many , didalamnya sendiri terdapat fitur CRUD disetiap table nya dengan config yang sudah disediakan agar bisa membuat table items diisi secara otomatis maupun manual.
 
-## About Laravel
+### Frontend nya sendiri telah menggunakan fitur SPA (Single Page Application) yang dibuat menggunakan JQUERY dan vanilla javascript hal ini membuat waktu load untuk pindah page menjadi dipersingkat karena segala aksi yang dilakukan di website kebanyakan adalah tetap berada di page tersebut.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Design Database nya sendiri itu menggunakan one to many relationship dengan table sebagai berikut :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<a href="https://ibb.co/zsc0hPn"><img src="https://i.ibb.co/gy1BMtj/Screenshot-from-2022-09-24-12-07-10.png" alt="Screenshot-from-2022-09-24-12-07-10" border="0" /></a>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+App Example :
+<a href="https://ibb.co/w7GJVm9"><img src="https://i.ibb.co/ypvhtjw/Screenshot-from-2022-09-24-12-11-22.png" alt="Screenshot-from-2022-09-24-12-11-22" border="0" /></a>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<a href="https://ibb.co/D5HMKfM"><img src="https://i.ibb.co/cDS8Th8/Screenshot-from-2022-09-24-12-11-35.png" alt="Screenshot-from-2022-09-24-12-11-35" border="0" /></a>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<a href="https://ibb.co/PWsZxVF"><img src="https://i.ibb.co/SmDXNZ5/Screenshot-from-2022-09-24-12-12-37.png" alt="Screenshot-from-2022-09-24-12-12-37" border="0" /></a>
 
-## Laravel Sponsors
+<a href="https://ibb.co/zG0MnDc"><img src="https://i.ibb.co/MM3v2QT/Screenshot-from-2022-09-24-12-11-46.png" alt="Screenshot-from-2022-09-24-12-11-46" border="0" /></a>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Dependencies : 
+- Laravel Breeze
+- Laravel Sanctum
 
-### Premium Partners
+### MVC Integration seharusnya dengan design seperti ini alurnya tidak ada yang hidden (sudah jelas) Routes -> Controller -> Model -> View or Response
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
